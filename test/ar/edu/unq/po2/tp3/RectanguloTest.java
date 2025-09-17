@@ -8,7 +8,7 @@ public class RectanguloTest {
 
 	private Rectangulo rectangulo;
 	private Cuadrado cuadrado;
-	
+	 
 	@BeforeEach 
 	void setUp() throws Exception {
 		rectangulo = new Rectangulo((new Point(3, 5)), new Point (1, 2));
